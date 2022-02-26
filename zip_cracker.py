@@ -1,10 +1,14 @@
+# copy Your word list and zip file in same folder where this tool is kept
+
 import zipfile
 count = 1
-with open('darkweb2017-top10000.txt','rb') as text:
+name = input("enter your wordlist location ::: ")
+name2 = input("enter your zip file You want to crack ::: ")
+with open(name,'rb') as text:
     for entry in text.readlines():
         password = entry.strip()
         try:
-            with zipfile.ZipFile('locked.zip','r') as zf:
+            with zipfile.ZipFile(name2,'r') as zf:
                 zf.extractall(pwd=password)
 
                 data = zf.namelist()[0]
