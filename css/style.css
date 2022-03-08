@@ -730,3 +730,20 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+
+    .glow{border-radius: 20ch;
+      background: #08f; box-shadow: 0 0 40px 5px #fff,inset 0 0 20px #fff,0 0 160px 20px #08f, inset 0 0 20px #08f,0 0 320px 30px #08f,inset 0 0 20px #08f
+  }
+  .glow2{
+      background: rgb(203, 3, 221); box-shadow: 0 0 40px 5px rgb(203, 3, 221),inset 0 0 20px #fff,0 0 160px 20px rgb(203, 3, 221), inset 0 0 20px rgb(203, 3, 221),0 0 320px 30px rgb(203, 3, 221),inset 0 0 20px rgb(203, 3, 221)
+  }
+  .glow3{
+    border-radius: 10ch;
+    box-shadow: 0 0 40px 5px #fff,inset 0 0 20px #fff,0 0 160px 20px #08f, inset 0 0 20px #08f,0 0 320px 30px #08f,inset 0 0 20px #08f;
+              }
+  
+  .glow4{
+    border-radius: 10ch;
+    box-shadow: 0 0 40px 5px rgb(203, 3, 221),inset 0 0 20px rgb(203, 3, 221),0 0 160px 20px rgb(203, 3, 221), inset 0 0 20px rgb(203, 3, 221),0 0 320px 30px rgb(203, 3, 221),inset 0 0 20px #08f;
+              }
